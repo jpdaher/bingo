@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    width: 100%;
+    background-color: rebeccapurple;
+
+}
+
+header h1 {
+    font-size: 80px;
+    color: ivory;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    height: 82vh;
+    width: 100%;
+}
+
+button {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 5px solid rebeccapurple;
+    color: rebeccapurple;
+    padding: 10px;
+    transition: 0.25s;
+    background-color: ivory;
+}
+
+button:hover,
+button:focus {
+ background-color: rebeccapurple;
+ color: ivory;
+}
+
+
+
+#cartelas_cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+#cartelas_cabecalho h2 {
+    color: rebeccapurple;
+    font-size: 40px;
+}
+
+#area_cartelas {
+    background-color: ivory;
+    height: 100%;
+    width: 70%;
+}
+
+#area_numeros {
+    background-color: rgba(102, 51, 153, 0.301);
+    height: 100%;
+    width: 30%;
+}
+
+#numeros_cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#numeros_cabecalho h2 {
+    font-size: 30px;
+    color: rebeccapurple;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: rebeccapurple;
+    color: ivory;
+}
+
+.marcado {
+    background-color: yellow;
+}
+
+.cartelas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cartela {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+td, th, table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 5px;
+}
+
+
+.cartela h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rebeccapurple;
+} 
+
+#numeros_sorteado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.numero_sorteado {
+    width: 10%;
+    padding: 10px;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rebeccapurple;
+}
